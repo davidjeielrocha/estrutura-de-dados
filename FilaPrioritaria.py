@@ -1,6 +1,7 @@
 
 class FilaPrioritariaBanco:
     PRIORIDADES = [
+        "idoso",
         "deficiencia",
         "lactante",
         "gestante",
