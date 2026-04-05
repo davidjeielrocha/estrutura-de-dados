@@ -13,3 +13,9 @@ class Deque:
     
     def removeAtras(self):
         return self.items.pop(0)
+    
+    def estaVazio(self):
+        return self.items == []
+    
+    def tamanho(self):
+        return len(self.items)
