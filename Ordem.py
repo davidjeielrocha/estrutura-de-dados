@@ -125,8 +125,8 @@ class Ordena:
 
 lista = [38, 27, 43, 3, 9, 82, 10]
 print("Lista original: ", lista)
-# print("Lista ordenada (Bolha): ", Ordena.bolha(lista.copy()))
-# print("Lista ordenada (Seleção): ", Ordena.selecao(lista.copy()))
-# print("Lista ordenada (Inserção): ", Ordena.insercao(lista.copy()))
-# print("Lista ordenada (Mistura): ", Ordena.seleciona_mistura(lista.copy()))
+print("Lista ordenada (Bolha): ", Ordena.bolha(lista.copy()))
+print("Lista ordenada (Seleção): ", Ordena.selecao(lista.copy()))
+print("Lista ordenada (Inserção): ", Ordena.insercao(lista.copy()))
+print("Lista ordenada (Mistura): ", Ordena.seleciona_mistura(lista.copy()))
 print("Lista ordenada (Rápida): ", Ordena.rapido(lista.copy()))
